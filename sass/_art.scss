@@ -1,0 +1,158 @@
+@media (min-width: 768px) {
+.section__art{
+    @include section; 
+    height: 1150px;
+}
+    .container__art{
+        display: flex;
+    }
+    .art__wraper{
+        width: 400px;   
+        padding-top: 190px;
+        padding-left: 60px;
+    }
+    .art__header{
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .art__title{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .art__text{
+        margin-top: 40px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    .art__word{
+        font-family: Poppins;
+        font-weight: 800;
+    }
+}
+    .art__button{
+        margin-top: 40px;
+    }
+    .art__btn{
+       @include button-secondary;
+    }
+    .art__right--boxes{
+        display: flex;
+        width: 900px;
+        padding-top: 190px;
+        padding-left: 68px;
+        position: relative;
+    }
+    .right--lbox{
+        width: 600px;
+        height: 800px;
+        background-color:#4b4b4b;
+        z-index: 2;
+
+    }
+    .right--mbox{
+        width: 430px;
+        height: 600px;
+        background-color:#ABABAB;
+        position: absolute;
+        top: 290px;
+        left: 420px;
+         z-index: 1;
+    }
+    .right--sbox{
+        width: 300px;
+        height: 500px;
+        background-color: #bdbdbd;
+        position: absolute;
+        top: 340px;
+        left: 700px;
+    }
+}
+    @media (max-width: 768px){
+        .section__art{
+        @include mob-section;
+        background-color: #f5f2ed;
+        }
+        .container__art{
+        display: block;
+        } 
+        .art__wraper{
+        padding: 60px 20px 20px 20px;
+        } 
+        .art__header{
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        } 
+        .art__title{
+        margin-top: 20px;    
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .art__text{
+        margin-top: 30px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    .art__word{
+        font-family: Poppins;
+        font-weight: 800;
+    }
+    }
+    .art__button{
+        margin-top: 40px;
+    }
+    .art__btn{
+        @include button-secondary;
+    }
+    .art__right--boxes{
+        display: flex;
+        width: 100%;
+        padding: 60px 20px 60px;
+        position: relative;
+    }
+    .right--lbox{
+        width: 200px;
+        height: 400px;
+        background-color:#4b4b4b;
+        z-index: 2;
+
+    }
+    .right--mbox{
+        width: 150px;
+        height: 300px;
+        background-color:#ABABAB;
+        position: absolute;
+        top: 110px;
+        left: 160px;
+        z-index: 1;
+    }
+    .right--sbox{
+        width: 175px;
+        height: 200px;
+        background-color: #bdbdbd;
+        position: absolute;
+        top: 160px;
+        left: 200px;
+    }
+}

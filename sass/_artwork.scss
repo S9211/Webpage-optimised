@@ -1,0 +1,59 @@
+@media (min-width: 768px){
+	.section__Artwork{
+		@include section;
+    	background-color: #bdbdbd;
+	}
+	.Artwork__header{
+		padding: 80px;
+		text-align: center;
+		font-size: 56px;
+        font-weight: 600;
+        letter-spacing: 0em;
+	}
+	.Artwork__wraper{
+		display: flex;
+		padding-left: 60px;
+		padding-bottom: 100px; 
+		justify-content: space-between;
+	}
+	.Artwork__box{
+		width: 300px;
+		height: 450px;
+		background-color: #292929;
+	}
+	.Artwork__sbox{
+		width: 200px;
+		height: 450px;
+		background-color: #292929;
+	}
+}
+@media (max-width: 768px){
+	.section__Artwork{
+       @include mob-section;
+        background-color: #bdbdbd;
+      }
+     .Artwork__header{
+		padding: 40px;
+		text-align: center;
+		font-size: 48px;
+        font-weight: 600;
+        letter-spacing: 0em;
+	}
+	.Artwork__wraper{
+		display: block;
+		padding-left: 40px;
+		padding-bottom: 50px; 
+	}
+	.Artwork__box{
+		width: 300px;
+		height: 350px;
+		margin-top: 20px;
+		background-color: #292929;
+	}
+	.Artwork__sbox{
+		width: 300px;
+		height: 350px;
+		margin-top: 20px;
+		background-color: #292929;
+	}
+}

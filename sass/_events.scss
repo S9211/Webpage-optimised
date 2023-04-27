@@ -1,0 +1,57 @@
+@media (min-width: 768px){
+		.section__events{
+		@include section; 
+		height: 600px;
+ 		font-family: 'Inter';
+		background-color: #d9d9d9;
+
+ 	.events__container{
+ 		display: flex;
+ 	}
+ 	.events__content{
+ 		width: 600px;
+ 		padding: 40px;		
+ 	}
+ 	.events__header{
+ 		margin-top: 80px;
+ 		margin-left: 40px;
+ 	}
+ 	.events__text{
+ 		padding-right: 100px;
+ 	}
+ 	.e__btn{
+		margin-top: 40px;
+	}
+	.events__btn{
+		@include button-secondary;
+	}
+	.video-lazy{
+		width: 800px;
+		height: 600px;
+		padding-right: 80px;
+	}
+  }
+}
+@media (max-width: 768px){
+ 	.section__events{
+ 		@include mob-section;
+ 		padding:20px;
+ 		background: #f5f2ed;
+ 	}
+ 	.events__container{
+ 	display: block;
+ }
+ .events__content{
+	margin-top: 30px;
+}
+.e__btn{
+	margin-top: 30px;
+}
+.events__btn{
+	@include button-secondary;
+}
+ .video-lazy{
+		width: 90vw;
+		height: 60vh;
+	}
+}

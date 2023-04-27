@@ -1,0 +1,122 @@
+@media (min-width: 768px){
+	.section__last{
+		@include section;
+		max-width: 1200px;
+		height: 700px;
+		background: none;
+    	margin-top: 70px;
+    	margin-bottom: 70px;
+	}
+	.container__last{
+		display: flex;
+	}
+	.last__rectangle--box1{
+		@include rectangle;
+	}
+	.last__rectangle--box2{
+		margin-top: 20px;
+		@include rectangle;
+	}
+
+
+	.right__content--area{
+		display: flex;
+		width: 600px;
+		height: 200px;
+		padding: 15px;
+		margin-left: 20px;
+		border-radius: 10px;
+		background-color: #e8e8e8;
+		margin-bottom: 10px;
+	}
+	.right__img--box{
+		width: 170px;
+		height: 170px;
+		border-radius: 10px;
+		background-color: #757575;
+	}
+	.right__content--last{
+		padding-left: 20px;
+	}
+	.right__content--title{
+		margin-top: 10px;
+	}
+	.right__content--text{
+		margin-top: 15px;
+		font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+	}
+	.right__content--author{
+		margin-top: 30px;
+	}
+	
+	.last__button{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .last__btn{
+        @include button-primary;
+    }
+}	
+	
+@media (max-width: 768px){
+      .container__last{
+      	margin-top: 40px;
+		display: block;
+		padding: 10px;
+	}
+	.last__rectangle--box1{
+		@include mob-rectangle;
+	}
+	.last__rectangle--box2{
+		margin-top: 20px;
+		@include mob-rectangle;
+	}
+
+	.right__content--area{
+		margin-top: 20px;
+		display: flex;
+		width: 350px;
+		height: 200px;
+		padding: 10px;	
+		border-radius: 10px;
+		background-color: #e8e8e8;
+	}
+	.right__img--box{
+		width: 70%;
+		height: 70%;
+		margin-top: 25px;
+		border-radius: 10px;
+		background-color: #757575;
+	}
+
+
+	.right__content--last{
+		padding-left: 10px;
+	}
+	.right__content--title{
+		margin-top: 10px;
+	}
+	.right__content--text{
+		margin-top: 10px;
+		font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+	}
+	.right__content--author{
+		margin-top: 30px;
+	}
+	
+	.last__button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .last__btn{
+       @include button-primary;
+    }
+}	

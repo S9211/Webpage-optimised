@@ -1,0 +1,57 @@
+.section-graphic{
+		@include section; 
+    	padding-bottom: 60px;
+	}
+	.graphic-head{
+	padding-top: 80px;
+	font-size: 40px;
+	margin-left: 80px;
+	}
+	.swiper {
+        width: 94%;
+        // height: 500px;
+      }
+
+      .swiper-slide {
+       	padding: 40px;
+      }
+      .img-discription{
+      	display: flex;
+      	justify-content: space-between;
+      }
+      .img-head{
+      	margin-top: 5px;
+      	font-family: Inter;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0em;
+		text-align: left;
+	  }
+	  .img-tag{
+	  	margin-top: 5px;
+      	font-family: Inter;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		letter-spacing: 0em;
+		text-align: left;
+		background-color: #e7e7e7;
+	  }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-scroll{
+      	max-width: 500px;
+      	margin-left: auto;
+      	margin-right: auto;
+      	margin-top: 50px;
+      	position: relative;
+      }
+      // .swiper-scrollbar{
+      // 	width: 500px;
+      // 	margin-top: 50px;
+      // }

@@ -1,0 +1,65 @@
+//hero
+@media (min-width: 768px){
+.hero__section{
+	@include section; 
+}
+.hero__container{
+	display: flex;
+	justify-content: space-between;
+}
+.hero__content{
+	max-width: 700px;
+	margin-top: 300px;
+	margin-left: 80px;
+}
+.hero__content .hero__text{
+	margin-top: 40px;
+	font-size: 14px;
+}
+.hero__content .hero__text1{
+	margin-top: 30px;
+	font-size: 23px;
+	font-family: 'Inter';
+	font-weight: 400;
+}
+.hbtn{
+	margin-top: 30px;
+}
+.hbtn .hero__btn{
+	@include button-primary;
+}
+
+.hero__images{
+	margin-left: 255px;
+	display: flex;
+}
+}
+ @media (max-width: 768px){
+ 	.hero__section{
+ 		@include mob-section;
+ 		padding:20px;
+ 		text-align:center;
+ 		background: #f5f2ed;
+ 	}
+ 	.hero__container{
+ 	display: block;
+ }
+ .hero__content{
+	margin-top: 30px;
+}
+.her__content .hero__text1{
+	margin-top: 40px;
+	font-size: 20px;
+}
+.hbtn{
+	margin-top: 30px;
+}
+.hbtn .hero__btn{
+	@include button-primary;
+}
+ .hero__images .img{
+ 	max-width: 80%;
+ 	height: 80%;
+ 	margin-top: 40px;
+ }
+}

@@ -1,0 +1,68 @@
+@mixin section {
+	max-width: 1400px;
+  	margin-right: auto;
+ 	margin-left: auto;
+ 	height: 850px;
+ 	background: #f5f2ed;
+}
+@mixin mob-section {
+		width: 100%;
+        height: 100%;
+        margin-left: auto;
+    	margin-right: auto;
+}
+@mixin rectangle {
+		width: 600px;
+		height: 300px;
+		background-color: #6964e2;
+		border-radius: 10px;
+}
+@mixin mob-rectangle {
+		width: 350px;
+		height: 200px;
+		background-color: #6964e2;
+		border-radius: 10px;
+}
+@mixin button-primary {
+		width: 200px;
+		height: 50px;
+		border-radius: 5px;
+		letter-spacing: 2px;
+		font-size: 14px;
+		cursor: pointer;
+		color: #fff;
+		background-color: #1f1f1f;
+}
+@mixin button-secondary{
+		width: 200px;
+		height: 60px;
+		font-size: 12px;
+		cursor: pointer;
+		color: #fff;
+		border: none;
+		background-color: #815d5d;
+}
+
+@mixin abhi_line{
+	margin-top: 15px;
+    width: 487px;
+    height: 25px;
+    background-color: #bdbdbd;
+}
+@mixin abhi_mob-line{
+	margin-top: 15px;
+    width: 267px;   
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#bdbdbd;
+}
+@mixin abhi__box{
+	width: 354px;
+    height: 444px;
+}
+@mixin abhi__mob-box{
+	padding: 30px;
+    width: 200px;
+    height: 250px;
+}
